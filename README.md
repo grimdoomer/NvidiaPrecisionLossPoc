@@ -55,7 +55,7 @@ The expected outcome is that the depth test will always pass on the second pass 
 
 ![](/Images/z-fighting.png)
 
-Testing this on NVIDIA graphics cards results in periodic z-fighting of the red cube (precision loss). Testing this on AMD graphics cards results in the cube always being green and no z-fighting occuring (no precision loss). Graphics cards tested:
+Testing this on NVIDIA graphics cards results in periodic z-fighting of the red cube (precision loss). Testing this on AMD graphics cards results in the cube always being green and no z-fighting occurring (no precision loss). Graphics cards tested:
 - NVIDIA RTX 3080 – cube flickers (precision loss)
 - NVIDIA RTX 2060 – cube flickers
 - AMD RX 580 – no flickering (no precision loss)
